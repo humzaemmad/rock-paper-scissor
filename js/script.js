@@ -21,3 +21,7 @@ function playRound(playerChoice, computerChoice) {
     return "You Lost!, Rock beats scissor";
   }
 }
+//Calling the function
+let computerChoice = getComputerChoice();
+let playerChoice = prompt("Please Enter rock, paper or scissor").toLowerCase();
+console.log(playRound(playerChoice, computerChoice))
